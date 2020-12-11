@@ -1,0 +1,125 @@
+/* Theme CSS */
+.main-header{
+	background: #004dda;
+}
+.primaty-color{
+	color: #fff!important;
+}
+.secondary-color{
+	color: #004dda;
+}
+
+/* Bootstrap Custom CSS */
+ul.dropdown-menu.show {
+    border-radius: 0px;
+    padding: 0px;
+}
+ul.dropdown-menu.show>li {
+    border-bottom: 1px solid #004dda;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-toggler{
+	border: none;
+	padding: 0px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0rem #86b7fe;
+}
+button:focus {
+    outline: dotted 1px;
+    outline: none;
+}
+@media (min-width: 769px){
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+}
+a{
+	text-decoration: none;
+}
+.carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    background: transparent!important;
+    border-radius: 50%;
+    border: 1px solid #004dda;
+}
+.carousel-indicators-dot {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: auto;
+}
+ol.carousel-indicators>li.active>.carousel-indicators-dot {
+    background: #004dda;
+}
+div#navbarToggleExternalContent>.list-group.ml-3 {
+    width: 200px;
+    text-align: center;
+    border-radius: 0px;
+}
+div#navbarToggleExternalContent {
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+}
+/* Custom CSS */
+
+.title-categories{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.theme-icon{
+	margin-top: 5px;
+	font-size: 26px;
+	color: #000;
+}
+i.cart-count {
+    background: #004dda;
+    padding: 1% 3%;
+    border-radius: 50%;
+    color: #fff;
+    margin: -20px;
+    font-size: 10px;
+}
+
+.categories-box {
+    height: 200px;
+    margin-top: 10px;
+    background-size: cover!important;
+    object-fit: fill;
+    padding: 0px;
+}
+.categories-box-shadow{
+	background: rgba(0,0,0,0.3);
+	height: 200px;
+	width: 100%;
+	color: #fff;
+	display: flex;
+	top: 50%;
+	align-items: center;
+	text-align: center;
+}
+.categories-box-shadow>h4{
+	text-align: center!important;
+	width: 100%;
+}
+
+
+
+
+/* Responsive */
