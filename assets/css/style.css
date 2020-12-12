@@ -76,6 +76,9 @@ div#navbarToggleExternalContent {
     z-index: 999;
     background: #fff;
 }
+.carousel-caption{
+    top: 50%;
+}
 /* Custom CSS */
 
 .title-categories{
@@ -98,7 +101,7 @@ i.cart-count {
 }
 
 .categories-box {
-    height: 200px;
+    height: 150px;
     margin-top: 10px;
     background-size: cover!important;
     object-fit: fill;
@@ -106,7 +109,7 @@ i.cart-count {
 }
 .categories-box-shadow{
 	background: rgba(0,0,0,0.3);
-	height: 200px;
+	height: 150px;
 	width: 100%;
 	color: #fff;
 	display: flex;
@@ -123,3 +126,17 @@ i.cart-count {
 
 
 /* Responsive */
+@media (max-width: 768px){
+    .carousel-caption{
+        top: 5%;
+        background: rgba(0,0,0,0.5);
+        display: block!important;
+        height: 100vh;
+    }
+    .carousel-caption>h5{
+        font-size: 1rem!important;
+    }
+    .carousel-caption>p{
+        font-size: 0.8rem!important;
+    }
+}
